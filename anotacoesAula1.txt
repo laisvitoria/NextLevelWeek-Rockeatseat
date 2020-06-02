@@ -1,0 +1,19 @@
+node -> 
+npm -> node package maneger
+npx -> executar um pacote instalado
+vscode
+
+packege.js -> arquivo com as principais informações sobre o projeto
+express -> lida com rotas
+node modules -> dependencias; pode apaga-la e depois instalar com o npm install
+
+... indica que falta a definição de tipos
+-d -> biblioteca de desenvolvimento
+
+request -> obter dados
+response -> devolver uma resposta
+
+JSON -> javascript object notacion
+response.json({}) or response.json([])
+
+ts-node-dev -> evita ter que reiniciar o servidor o a cada alteração
