@@ -1,0 +1,10 @@
+DOM -> arvore de elementos do html
+
+reactDOM -> renderizar no DOM
+
+jsx ->  pode escrever html dentro do JS -> sintaxe do xml
+
+react -> conceito de imutabilidade
+
+estado para array ou objedo deve-se informar o tipo que a 
+avariavel irá receber

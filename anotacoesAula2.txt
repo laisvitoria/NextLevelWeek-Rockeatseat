@@ -1,0 +1,55 @@
+Foco
+Prática
+Grupo
+
+request params -> parametros escritos na 
+própria rota que identifica um recurso
+	nome do parametro na rota
+
+Recurso
+
+query params -> parametros opcionais -> rota?parametro=valor
+	nome do parametro na requisição
+	para filtros, paginação
+
+.filter -> metodo para filtragem, precisa retornar true ou false
+.includes -> metodo para verificar se o valor possui x informação 
+no texto
+
+-> request body -> parametros para criação/atualização;
+	parametros informados pelo usuário
+	JSON
+
+app.use(express.json()) -> faz o express entender o JSON
+
+SQLite <3 <3 <3
+KnexJs -> permite usar uma unica linguagem para a maioria 
+dos bancos de dados
+ex.: knex.user
+
+filename -> onde o database ficará salvo
+path -> une caminhos -> evita problemas a depender do SO
+__dirname -> caminho para o diretorio
+
+ponto no mapa -> latitude e longitude
+
+Migrations -> histórico do banco de dados
+a ordem dos arquivos é a ordem de execução
+
+tipos do TS começam com letra maiuscula
+
+a instancia do knex é a instancia de acesso ao body
+
+PARA RODAR O BACK
+ts-node-dev src/server.ts -> yarn dev pq já nomeei esse comando como dev 
+
+PARA CRIAR AS TABELAS
+npx knex migrate:latest --knexfile knexfile.ts migrate:latest
+-> npm run knex:migrate
+-> se alguma outra pessoa rodar isso no banco dela ela terá a minha tabela
+
+para rodar deve-se estar na pasta server
+
+seed -> popular as tabelas
+
+query para bd async await
